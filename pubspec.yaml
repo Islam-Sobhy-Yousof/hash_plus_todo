@@ -1,0 +1,36 @@
+name: todo_app
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/english/Caveat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/english/Caveat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/english/Caveat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/english/Caveat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/english/Caveat-VariableFont_wght.ttf
